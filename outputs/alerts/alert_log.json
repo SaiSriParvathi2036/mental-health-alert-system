@@ -1,0 +1,80 @@
+[
+  {
+    "timestamp": "2026-03-09 11:21:52",
+    "risk_level": "medium",
+    "category": "Stress / Anxiety",
+    "confidence": 0.625,
+    "text_snippet": "I can't stop the anxiety, everything feels overwhelming right now.",
+    "channels_notified": [
+      "email (simulated)",
+      "sms (simulated)",
+      "dashboard"
+    ],
+    "alert_id": "ALERT-20260309112152431",
+    "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u26a0\ufe0f  MEDIUM RISK ALERT \u2014 COUNSELOR REVIEW REQUIRED\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nAlert ID    : ALERT-20260309112152431\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\ude30 Stress / Anxiety\nRisk Level  : \ud83d\udfe1 MEDIUM RISK\nConfidence  : 62.5%\n\nContent Snippet:\n  \"I can't stop the anxiety, everything feels overwhelming right now.\"\n\nSITUATION: Signs of stress, anxiety, sadness, or relationship conflict detected.\n\nRECOMMENDED ACTIONS:\n  1. Review full conversation context\n  2. Reach out with a supportive message within 24 hours\n  3. Provide mental health resources to the user\n  4. Monitor for escalation to high-risk level\n\nResources to Share:\n  \ud83d\udcde 988 Suicide & Crisis Lifeline\n  \ud83c\udf10 MentalHealth.gov\n  \ud83d\udcf1 Crisis Text Line: Text HOME to 741741\n\nAlert System: Sentinel AI Mental Health Alert System\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-03-09 11:21:52",
+    "risk_level": "high",
+    "category": "Suicide Risk",
+    "confidence": 0.7167,
+    "text_snippet": "I don't want to be here anymore, I've written my goodbye note.",
+    "channels_notified": [
+      "email (simulated)",
+      "sms (simulated)",
+      "dashboard",
+      "emergency_services (concept)"
+    ],
+    "alert_id": "ALERT-20260309112152455",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152455\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83c\udd98 Suicide Risk\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 71.7%\n\nContent Snippet:\n  \"I don't want to be here anymore, I've written my goodbye note.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUIRED ACTIONS:\n  1. Immediately notify crisis response team\n  2. Attempt contact with the user within 10 minutes\n  3. If unresponsive, notify emergency services\n  4. Document this incident per protocol\n\nEmergency Resources:\n  \ud83d\udcde 988 Suicide & Crisis Lifeline (call or text)\n  \ud83d\udcde Emergency Services: 911\n  \ud83c\udf10 Crisis Chat: https://988lifeline.org/chat/\n\nAlert System: Sentinel AI Mental Health Alert System\n=================================================================\n",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-03-09 11:21:52",
+    "risk_level": "high",
+    "category": "Violence / Threats",
+    "confidence": 0.3459,
+    "text_snippet": "I'll hurt you if you don't comply, I know where you live.",
+    "channels_notified": [
+      "email (simulated)",
+      "sms (simulated)",
+      "dashboard",
+      "emergency_services (concept)"
+    ],
+    "alert_id": "ALERT-20260309112152490",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152490\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\udd34 Violence / Threats\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 34.6%\n\nContent Snippet:\n  \"I'll hurt you if you don't comply, I know where you live.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUIRED ACTIONS:\n  1. Immediately notify crisis response team\n  2. Attempt contact with the user within 10 minutes\n  3. If unresponsive, notify emergency services\n  4. Document this incident per protocol\n\nEmergency Resources:\n  \ud83d\udcde 988 Suicide & Crisis Lifeline (call or text)\n  \ud83d\udcde Emergency Services: 911\n  \ud83c\udf10 Crisis Chat: https://988lifeline.org/chat/\n\nAlert System: Sentinel AI Mental Health Alert System\n=================================================================\n",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-03-09 11:21:52",
+    "risk_level": "high",
+    "category": "Cyberbullying",
+    "confidence": 0.5803,
+    "text_snippet": "You're worthless, everyone hates you, go away forever.",
+    "channels_notified": [
+      "email (simulated)",
+      "sms (simulated)",
+      "dashboard",
+      "emergency_services (concept)"
+    ],
+    "alert_id": "ALERT-20260309112152522",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152522\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \u26a1 Cyberbullying\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 58.0%\n\nContent Snippet:\n  \"You're worthless, everyone hates you, go away forever.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUIRED ACTIONS:\n  1. Immediately notify crisis response team\n  2. Attempt contact with the user within 10 minutes\n  3. If unresponsive, notify emergency services\n  4. Document this incident per protocol\n\nEmergency Resources:\n  \ud83d\udcde 988 Suicide & Crisis Lifeline (call or text)\n  \ud83d\udcde Emergency Services: 911\n  \ud83c\udf10 Crisis Chat: https://988lifeline.org/chat/\n\nAlert System: Sentinel AI Mental Health Alert System\n=================================================================\n",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-03-09 11:21:52",
+    "risk_level": "medium",
+    "category": "Trust / Relationship Issues",
+    "confidence": 0.7446,
+    "text_snippet": "I don't trust anyone after the betrayal, completely broken.",
+    "channels_notified": [
+      "email (simulated)",
+      "sms (simulated)",
+      "dashboard"
+    ],
+    "alert_id": "ALERT-20260309112152561",
+    "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u26a0\ufe0f  MEDIUM RISK ALERT \u2014 COUNSELOR REVIEW REQUIRED\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nAlert ID    : ALERT-20260309112152561\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\udc94 Trust / Relationship Issues\nRisk Level  : \ud83d\udfe1 MEDIUM RISK\nConfidence  : 74.5%\n\nContent Snippet:\n  \"I don't trust anyone after the betrayal, completely broken.\"\n\nSITUATION: Signs of stress, anxiety, sadness, or relationship conflict detected.\n\nRECOMMENDED ACTIONS:\n  1. Review full conversation context\n  2. Reach out with a supportive message within 24 hours\n  3. Provide mental health resources to the user\n  4. Monitor for escalation to high-risk level\n\nResources to Share:\n  \ud83d\udcde 988 Suicide & Crisis Lifeline\n  \ud83c\udf10 MentalHealth.gov\n  \ud83d\udcf1 Crisis Text Line: Text HOME to 741741\n\nAlert System: Sentinel AI Mental Health Alert System\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
+    "status": "sent"
+  }
+]

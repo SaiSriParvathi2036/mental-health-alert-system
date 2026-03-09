@@ -1,0 +1,50 @@
+{
+  "dataset_size": 421,
+  "classes": [
+    "Normal Conversation",
+    "Stress / Anxiety",
+    "Depression / Sadness",
+    "Suicide Risk",
+    "Cyberbullying",
+    "Violence / Threats",
+    "Trust / Relationship Issues"
+  ],
+  "risk_levels": {
+    "Normal Conversation": "low",
+    "Stress / Anxiety": "medium",
+    "Depression / Sadness": "medium",
+    "Suicide Risk": "high",
+    "Cyberbullying": "high",
+    "Violence / Threats": "high",
+    "Trust / Relationship Issues": "medium"
+  },
+  "best_model": "Support Vector Machine",
+  "model_metrics": {
+    "Logistic Regression": {
+      "model": "Logistic Regression",
+      "accuracy": 0.5529,
+      "precision": 0.5798,
+      "recall": 0.5529,
+      "f1_score": 0.5441
+    },
+    "Support Vector Machine": {
+      "model": "Support Vector Machine",
+      "accuracy": 0.6,
+      "precision": 0.6288,
+      "recall": 0.6,
+      "f1_score": 0.5905
+    },
+    "Random Forest": {
+      "model": "Random Forest",
+      "accuracy": 0.4118,
+      "precision": 0.4681,
+      "recall": 0.4118,
+      "f1_score": 0.3871
+    }
+  },
+  "features": 8000,
+  "ngram_range": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,291 @@
+"""
+Dataset Generator
+=================
+Generates a realistic synthetic dataset for the Mental Health Early Alert System.
+In production, replace with real Kaggle datasets:
+  - dair-ai/emotion (Emotion Detection)
+  - nicapotato/womens-ecommerce-clothing-reviews
+  - suicide-watch dataset
+  - cyberbullying_tweets dataset
+"""
+
+import pandas as pd
+import numpy as np
+import os
+
+np.random.seed(42)
+
+SAMPLES = {
+    "normal": [
+        "Had such a great day with my friends at the park today!",
+        "Just finished cooking dinner, turned out amazing.",
+        "Watching my favorite show tonight, so relaxed.",
+        "The weather is beautiful today, went for a walk.",
+        "Finally got that promotion at work, feeling proud.",
+        "Enjoying a quiet Sunday morning with coffee and books.",
+        "My dog learned a new trick today, absolutely adorable.",
+        "Spent the evening with family, laughter all around.",
+        "Completed my workout routine, feeling energized.",
+        "Planning a vacation next month, really excited.",
+        "Had a productive day at work, cleared my task list.",
+        "Met an old friend for lunch, great catching up.",
+        "The new restaurant in town is fantastic, highly recommend.",
+        "Finished reading a wonderful novel this weekend.",
+        "Kids had their school play today, they were brilliant.",
+        "Got a great night's sleep finally, feeling refreshed.",
+        "Made progress on my art project, loving how it looks.",
+        "Played board games with neighbors, such a fun evening.",
+        "Celebrated my birthday with family, felt so loved.",
+        "Learning to cook new recipes, trying something different.",
+        "Morning run was refreshing, beautiful sunrise today.",
+        "Got tickets to the concert next week, can't wait!",
+        "My garden is blooming so beautifully this spring.",
+        "Finished the report early, boss was impressed.",
+        "Had a lovely picnic with the family this afternoon.",
+        "Joined a new book club, met interesting people.",
+        "The movie was fantastic, highly recommend it.",
+        "Baked cookies for the neighbors, they loved them.",
+        "Went hiking this weekend, breathtaking views.",
+        "Caught up on sleep over the holiday weekend.",
+    ],
+    "stress_anxiety": [
+        "I can't stop worrying about the presentation tomorrow.",
+        "My heart is racing and I don't know why, so anxious.",
+        "Everything feels overwhelming right now, too much pressure.",
+        "I haven't slept properly in days, anxiety won't let me rest.",
+        "The deadlines are piling up and I'm starting to panic.",
+        "I feel like I'm constantly on edge, can't relax at all.",
+        "My mind won't stop racing with negative thoughts tonight.",
+        "Stressed about finances again, don't know how I'll manage.",
+        "The job interview is tomorrow and I'm absolutely terrified.",
+        "I keep having panic attacks at the most random times.",
+        "Everything at work is falling apart and I feel helpless.",
+        "I'm so stressed I can't even eat properly anymore.",
+        "The anxiety is so bad I've been avoiding people lately.",
+        "I have too many responsibilities and feel completely burned out.",
+        "My hands won't stop shaking, nerves are completely shot.",
+        "I feel like I'm suffocating under all this pressure.",
+        "Can't focus on anything, brain feels like static noise.",
+        "Woke up in a cold sweat again, anxiety dreams every night.",
+        "I'm terrified of failing my exams, studied but still scared.",
+        "The stress at home is making me physically ill.",
+        "I can't stop checking my phone for bad news constantly.",
+        "Feel paralyzed by decisions, can't make up my mind.",
+        "My chest feels tight whenever I think about next week.",
+        "I've been canceling plans because the anxiety is too bad.",
+        "So overwhelmed I don't know where to start with anything.",
+        "I'm scared something bad is going to happen, can't shake it.",
+        "Work stress is affecting my relationship now too.",
+        "I feel sick to my stomach every morning before work.",
+        "The fear of failure is eating me alive right now.",
+        "I just need one day where I don't feel this anxious.",
+    ],
+    "depression_sadness": [
+        "I feel completely empty inside, like nothing matters anymore.",
+        "Haven't felt happy in months, everything is just gray.",
+        "I cry myself to sleep most nights and don't know why.",
+        "Lost interest in everything I used to love doing.",
+        "I feel so alone even when I'm surrounded by people.",
+        "Getting out of bed feels impossible most mornings lately.",
+        "I feel worthless and like a burden to everyone around me.",
+        "Everything feels pointless, what's even the purpose anymore.",
+        "I've been isolating myself, don't want to see anyone.",
+        "Nothing brings me joy anymore, I feel completely numb.",
+        "I'm so sad all the time and don't even know why.",
+        "Feel like I'm going through life on autopilot, disconnected.",
+        "I miss who I used to be, I've lost myself completely.",
+        "Can't remember the last time I genuinely smiled or laughed.",
+        "I feel like a failure no matter what I do or try.",
+        "The darkness in my mind just won't lift lately.",
+        "I'm exhausted all the time even when I sleep enough.",
+        "Stopped eating properly because nothing tastes good anymore.",
+        "I feel invisible, like no one would notice if I disappeared.",
+        "Crying in the shower so nobody knows how broken I am.",
+        "I feel so hopeless about the future, nothing seems possible.",
+        "Everything requires so much effort, the simplest tasks feel huge.",
+        "I've lost all motivation and drive I used to have.",
+        "I feel like I'm drowning in sadness and can't surface.",
+        "Nobody understands what I'm going through, so isolated.",
+        "The sadness is so heavy I can barely move some days.",
+        "I don't see the point in trying anymore, what's the use.",
+        "Feel like I'm fading away and no one even notices.",
+        "My heart feels so heavy all the time, just exhausted.",
+        "Living feels like just going through the motions every day.",
+    ],
+    "suicide_risk": [
+        "I've been thinking that everyone would be better without me.",
+        "I don't want to be here anymore, the pain is too much.",
+        "I've been researching ways to end it all, I'm so tired.",
+        "I wrote goodbye letters to my family just in case.",
+        "Nobody would miss me if I was gone, no one cares.",
+        "I can't see any reason to keep going anymore, done.",
+        "The thought of not existing anymore brings me peace.",
+        "I've been planning how to do it, I have everything ready.",
+        "I feel like my family would be better off without me.",
+        "I'm so tired of fighting every day, want it to end.",
+        "Life has no meaning for me anymore, thinking of ending it.",
+        "I've been saying my goodbyes subtly, no one noticed.",
+        "The only way out of this pain seems to be leaving forever.",
+        "I have pills saved up and I'm thinking about taking them.",
+        "I've decided I can't do this anymore, made up my mind.",
+        "Giving away my belongings, won't be needing them soon.",
+        "I just want the pain to stop permanently, no other way.",
+        "Told my best friend I love them for the last time today.",
+        "Can't see a future for myself, might as well end it now.",
+        "Been standing on the bridge thinking, not sure why I left.",
+        "I'm going to do it tonight, I've thought about it long enough.",
+        "Written my will, distributed my things, almost ready.",
+        "The darkness has won, I'm choosing to stop the fight.",
+        "I don't deserve to live, everyone would be happier.",
+        "My mind is made up, this is the last message I'll send.",
+        "I've been cutting myself to feel something, or to end it.",
+        "Just took all my sleeping pills, feeling drowsy now.",
+        "I said goodbye to my cat today, she deserves better.",
+        "This is my last post, thank you all for everything.",
+        "I chose a date, preparing myself, almost time.",
+    ],
+    "cyberbullying": [
+        "You're ugly and pathetic, no one will ever love you.",
+        "Everyone in school hates you, why don't you just leave.",
+        "I'll make your life miserable, watch your back every day.",
+        "You should kill yourself, nobody wants you around here.",
+        "We're going to ruin your reputation, spread your pictures.",
+        "You're such a loser, go cry to your mommy about it.",
+        "Keep your mouth shut or we'll share those photos of you.",
+        "You're worthless garbage, the school is better without you.",
+        "I told everyone your secrets, hope you're happy now.",
+        "Block me all you want, I have ten other accounts ready.",
+        "Your family is a joke, everyone laughs at you behind your back.",
+        "No one wants to be your friend, you're too weird and ugly.",
+        "We'll follow you everywhere online until you break.",
+        "You deserve everything bad that happens to you.",
+        "Keep crying, it only makes us want to bully you more.",
+        "I hacked your account and sent messages to your contacts.",
+        "Your photos have been shared everywhere, good luck now.",
+        "You're nothing but a target, better get used to it.",
+        "Nobody cares about your feelings, stop being so sensitive.",
+        "We voted you as the ugliest person in school, congrats.",
+        "Your posts are so cringe, everyone mocks you privately.",
+        "I'll make a group chat to expose all your embarrassing secrets.",
+        "Go back to where you came from, you don't belong here.",
+        "You're stupid and nobody cares what you think or say.",
+        "We'll ruin every relationship you have, just wait and see.",
+        "You'll never be popular, give up and disappear already.",
+        "Screenshot this and share - look at this pathetic loser.",
+        "I'll get my friends to report all your accounts until banned.",
+        "You're a freak and everyone agrees, we talk about you.",
+        "Better change schools because we won't stop anytime soon.",
+    ],
+    "violence_threats": [
+        "I'm going to hurt you badly if you don't back off now.",
+        "You'll regret crossing me, I know where you live.",
+        "I've been planning to make you pay for what you did.",
+        "Watch your back because I'm coming for you very soon.",
+        "I have a weapon and I'm not afraid to use it on you.",
+        "You and your family aren't safe, consider this a warning.",
+        "I'll destroy everything you care about, I promise you.",
+        "This is your final warning, next time I won't stop myself.",
+        "I've assembled a group and we're coming to find you.",
+        "Your car won't be the only thing damaged next time.",
+        "I swear I'll make you suffer for what you did to me.",
+        "I have your address, your schedule, I'm watching you.",
+        "One more word and I'll snap, I cannot be responsible.",
+        "I'm going to make an example of you in front of everyone.",
+        "The rage I feel right now makes me capable of anything.",
+        "Stay away from my family or face serious consequences.",
+        "I've done it before and I'll do it again, don't test me.",
+        "You'll be sorry when I find you, and I will find you.",
+        "I'm planning something that will make you regret this.",
+        "Don't go home alone tonight, take this as your warning.",
+        "I have nothing to lose anymore, so don't push me.",
+        "Next time we meet in person things will get very ugly.",
+        "I'll burn everything you own to the ground, I swear it.",
+        "You won't recognize yourself after I'm done with you.",
+        "I'm loading up and heading your way, say your prayers.",
+        "I'll hurt everyone you care about to make you suffer.",
+        "Nobody threatens me and gets away with it, you'll see.",
+        "I've been planning this for months and I'm ready now.",
+        "You crossed the wrong person, prepare for consequences.",
+        "Consider this your only warning before I take action.",
+    ],
+    "trust_relationship": [
+        "I don't trust anyone anymore after what happened to me.",
+        "My partner has been lying to me for months about everything.",
+        "I feel completely betrayed by my closest friend and don't know why.",
+        "Everyone in my life eventually leaves or deceives me.",
+        "I can't open up to anyone because they always hurt me.",
+        "My relationship is falling apart and I don't know what to do.",
+        "I found out my best friend has been talking behind my back.",
+        "I trust no one, people are always out to use and betray you.",
+        "My partner cheated and I feel broken, can't move forward.",
+        "I feel isolated because I can't let anyone get close to me.",
+        "Every relationship in my life ends in betrayal and heartbreak.",
+        "I was manipulated for years and now I can't trust myself.",
+        "My family turned their backs on me during my worst time.",
+        "I opened up and got hurt again, done trusting people.",
+        "The gaslighting has made me question my own sanity.",
+        "I don't know who I can believe anymore, everyone lies.",
+        "My social circle all turned against me without reason.",
+        "Feel like an outsider in my own relationship and family.",
+        "I was betrayed by people I would have died for, devastating.",
+        "Nobody is who they say they are, everyone has an agenda.",
+        "I've been used and discarded so many times I'm numb.",
+        "My partner controls everything I do, I have no freedom.",
+        "I feel trapped in a relationship I'm too scared to leave.",
+        "Everyone I trust ends up disappointing or hurting me.",
+        "Social anxiety is ruining all my relationships slowly.",
+        "I feel like an outsider everywhere I go, never belonging.",
+        "People always leave when they see the real broken me.",
+        "I can't maintain friendships because I keep pushing people away.",
+        "My trust was shattered and I don't know how to rebuild it.",
+        "I feel like I'm always giving and never receiving anything.",
+    ],
+}
+
+def generate_dataset(samples_per_class=200, output_path="mental_health_dataset.csv"):
+    rows = []
+    label_map = {
+        "normal": "Normal Conversation",
+        "stress_anxiety": "Stress / Anxiety",
+        "depression_sadness": "Depression / Sadness",
+        "suicide_risk": "Suicide Risk",
+        "cyberbullying": "Cyberbullying",
+        "violence_threats": "Violence / Threats",
+        "trust_relationship": "Trust / Relationship Issues",
+    }
+
+    augment_patterns = [
+        "Feeling like {}",
+        "I just {} today",
+        "{}, can't shake this feeling",
+        "Today again: {}",
+        "Honestly, {}",
+        "Can't believe {}",
+        "Just realized {}",
+        "Had to write this: {}",
+        "Posting this because {}",
+        "Not sure who needs to hear this but {}",
+    ]
+
+    for key, label in label_map.items():
+        base_texts = SAMPLES[key]
+        count = 0
+        while count < samples_per_class:
+            text = base_texts[count % len(base_texts)]
+            # Add slight variation
+            if count >= len(base_texts):
+                words = text.split()
+                np.random.shuffle(words[:3])  # shuffle first few words slightly
+            rows.append({"text": text, "label": label, "source": "synthetic"})
+            count += 1
+
+    df = pd.DataFrame(rows)
+    df = df.sample(frac=1, random_state=42).reset_index(drop=True)
+    df.to_csv(output_path, index=False)
+    print(f"✅ Dataset generated: {len(df)} samples across {df['label'].nunique()} classes")
+    print(df["label"].value_counts().to_string())
+    return df
+
+if __name__ == "__main__":
+    os.makedirs("../data", exist_ok=True)
+    df = generate_dataset(samples_per_class=200, output_path="../data/mental_health_dataset.csv")

@@ -1,0 +1,422 @@
+id,text,label,risk_level,source_type,word_count,text_length
+MSG-0146,Nobody truly understands what I am going through and I feel so completely alone.,Depression / Sadness,medium,Mental Health Forum / Diary,14,80
+MSG-0336,I have documented every single thing you have done and I am going to use it all.,Violence / Threats,high,Social Media / Chat Messages,17,80
+MSG-0176,"Every day I wake up and think, not again, I cannot face another day like this.",Depression / Sadness,medium,Mental Health Forum / Diary,16,78
+MSG-0371,I feel increasingly isolated because I cannot allow anyone to get close to me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,78
+MSG-0418,My partner uses my past traumas as weapons during every single argument we have.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,80
+MSG-0074,The anxiety has gotten so bad that I have started avoiding people completely.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,77
+MSG-0133,"I feel like I am going through life entirely on autopilot, completely disconnected.",Depression / Sadness,medium,Mental Health Forum / Diary,13,83
+MSG-0138,I am completely exhausted all the time even when I get more than enough sleep.,Depression / Sadness,medium,Mental Health Forum / Diary,15,78
+MSG-0031,"Just bought a new plant for my apartment, my place feels so alive now.",Normal Conversation,low,Social Media / General Posts,14,70
+MSG-0073,I am so stressed out that I cannot even eat properly or taste anything anymore.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,79
+MSG-0071,I keep having random panic attacks at the most unexpected and inconvenient times.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,81
+MSG-0095,I have been procrastinating everything because starting anything feels impossible.,Stress / Anxiety,medium,Online Forum / Chat Messages,10,82
+MSG-0370,My partner cheated on me and I feel completely broken and unable to move forward.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,81
+MSG-0091,I just need one single day where I do not feel this anxious and overwhelmed.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,76
+MSG-0328,"Nobody threatens me and ever gets away with it cleanly, you will see soon.",Violence / Threats,high,Social Media / Chat Messages,14,74
+MSG-0414,I was emotionally abused for so long that love and fear feel identical to me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,77
+MSG-0010,"Planning a vacation to Italy next month, I am so excited about it.",Normal Conversation,low,Social Media / General Posts,13,66
+MSG-0248,Keep your mouth shut or we will share those pictures you sent to everyone.,Cyberbullying,high,Social Media / Direct Messages,14,74
+MSG-0197,I have started giving away my belongings because I will not be needing them.,Suicide Risk,high,Crisis Forum / Support Group,14,76
+MSG-0232,I told my therapist I was doing better because I do not want to be stopped.,Suicide Risk,high,Crisis Forum / Support Group,16,75
+MSG-0193,I have been saying my goodbyes to people subtly and nobody has even noticed.,Suicide Risk,high,Crisis Forum / Support Group,14,76
+MSG-0240,I wanted to reach out before I do this because I did not want to leave silently.,Suicide Risk,high,Crisis Forum / Support Group,17,80
+MSG-0420,I have been let down by every single authority figure I have ever trusted.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,74
+MSG-0229,I called to cancel all my appointments and subscriptions one by one today.,Suicide Risk,high,Crisis Forum / Support Group,13,74
+MSG-0056,"Had a heartfelt conversation with my dad tonight, feeling very grateful.",Normal Conversation,low,Social Media / General Posts,11,72
+MSG-0355,You sleeping soundly tonight is something that should not make you comfortable.,Violence / Threats,high,Social Media / Chat Messages,12,79
+MSG-0057,"The kids made me breakfast in bed for my birthday, what a sweet surprise.",Normal Conversation,low,Social Media / General Posts,14,73
+MSG-0298,We dox people who stand up to us so you had better think very carefully.,Cyberbullying,high,Social Media / Direct Messages,15,72
+MSG-0272,We created a fake profile using your photos to humiliate you publicly online.,Cyberbullying,high,Social Media / Direct Messages,13,77
+MSG-0080,I am terrified of failing my final exams even though I have studied really hard.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,80
+MSG-0411,"I feel hypervigilant in every relationship now, always waiting for the betrayal.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,12,80
+MSG-0117,Starting a new job next week and the anticipatory anxiety is completely unbearable.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,83
+MSG-0209,I said goodbye to my dog today because she deserves so much better than me.,Suicide Risk,high,Crisis Forum / Support Group,15,75
+MSG-0195,I have been saving up pills for weeks now and I think about taking them.,Suicide Risk,high,Crisis Forum / Support Group,15,72
+MSG-0339,You humiliated me in public and I will return that humiliation tenfold to you.,Violence / Threats,high,Social Media / Chat Messages,14,78
+MSG-0185,"I have written goodbye letters to my family, just in case something happens.",Suicide Risk,high,Crisis Forum / Support Group,13,76
+MSG-0219,I deleted all my social media accounts today because I am done with this world.,Suicide Risk,high,Crisis Forum / Support Group,15,79
+MSG-0040,Cooked Sunday brunch for the whole family and everyone loved every bite.,Normal Conversation,low,Social Media / General Posts,12,72
+MSG-0169,I wake up each morning hoping to feel better and every day I am disappointed.,Depression / Sadness,medium,Mental Health Forum / Diary,15,77
+MSG-0263,I made a group chat specifically to expose all of your most embarrassing secrets.,Cyberbullying,high,Social Media / Direct Messages,14,81
+MSG-0076,My hands will not stop shaking and my nerves are completely shot right now.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,75
+MSG-0077,I feel like I am suffocating under the weight of all this pressure.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,67
+MSG-0417,I was cheated on twice and now I genuinely cannot believe anyone who says I love you.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,17,85
+MSG-0034,"Volunteered at the local food bank today, such a rewarding experience.",Normal Conversation,low,Social Media / General Posts,11,70
+MSG-0114,Cannot enjoy anything anymore because I am always waiting for it to go wrong.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,77
+MSG-0377,"I no longer know who or what to believe about anything, everyone around me lies.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,80
+MSG-0149,I feel like I am slowly fading away and not a single person even notices it.,Depression / Sadness,medium,Mental Health Forum / Diary,16,76
+MSG-0295,I sent all your personal photos to your family members without your permission.,Cyberbullying,high,Social Media / Direct Messages,13,79
+MSG-0369,"I trust absolutely no one anymore, people are always out to use and betray you.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,79
+MSG-0016,"Got a full eight hours of sleep last night, feeling completely refreshed.",Normal Conversation,low,Social Media / General Posts,12,73
+MSG-0079,"Woke up in a cold sweat again from another anxiety dream, third night in a row.",Stress / Anxiety,medium,Online Forum / Chat Messages,16,79
+MSG-0318,"I have done this before to others and I will gladly do it again, do not test me.",Violence / Threats,high,Social Media / Chat Messages,18,80
+MSG-0001,Had such a wonderful day at the beach with my family today.,Normal Conversation,low,Social Media / General Posts,12,59
+MSG-0020,"Learning to cook Thai food from scratch, trying something completely new.",Normal Conversation,low,Social Media / General Posts,11,73
+MSG-0391,I feel like I am always the one giving everything and receiving absolutely nothing.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,83
+MSG-0279,I told your crush exactly what you wrote about them and they think you are gross.,Cyberbullying,high,Social Media / Direct Messages,16,81
+MSG-0281,I reported all your accounts as spam and they are going to get permanently banned.,Cyberbullying,high,Social Media / Direct Messages,15,82
+MSG-0278,Every comment you make online gets screenshot and shared in our private group.,Cyberbullying,high,Social Media / Direct Messages,13,78
+MSG-0078,"Cannot focus on anything at all, my brain feels like complete static noise.",Stress / Anxiety,medium,Online Forum / Chat Messages,13,75
+MSG-0083,"Feel completely paralyzed by all my decisions, I cannot seem to choose anything.",Stress / Anxiety,medium,Online Forum / Chat Messages,13,80
+MSG-0358,You made this personal the moment you involved my family in your problems.,Violence / Threats,high,Social Media / Chat Messages,13,74
+MSG-0105,Took three anxiety medications today and still feel like my heart might burst.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,78
+MSG-0026,Joined a new book club last week and already met some very interesting people.,Normal Conversation,low,Social Media / General Posts,14,78
+MSG-0381,"Nobody is ever who they present themselves to be, everyone has a hidden agenda.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,79
+MSG-0173,I used to be the one who made everyone laugh and now I cannot even smile.,Depression / Sadness,medium,Mental Health Forum / Diary,16,73
+MSG-0368,I found out that my best friend has been talking badly about me behind my back.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,16,79
+MSG-0267,"You will never be popular ever, so just give up and disappear from everyone.",Cyberbullying,high,Social Media / Direct Messages,14,76
+MSG-0043,Started learning guitar last month and already can play three full songs.,Normal Conversation,low,Social Media / General Posts,12,73
+MSG-0174,My depression makes me feel selfish even when I know rationally that it is not.,Depression / Sadness,medium,Mental Health Forum / Diary,15,79
+MSG-0372,Every single relationship I have ever had ends in betrayal and crushing heartbreak.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,83
+MSG-0125,"I have lost all interest in everything I used to love doing, nothing excites me.",Depression / Sadness,medium,Mental Health Forum / Diary,15,80
+MSG-0341,I have been sharpening something for you specifically and I am almost ready.,Violence / Threats,high,Social Media / Chat Messages,13,76
+MSG-0297,I told everyone your medical information and now everyone is laughing at you.,Cyberbullying,high,Social Media / Direct Messages,13,77
+MSG-0273,I screen recorded your embarrassing video and sent it to the whole year group.,Cyberbullying,high,Social Media / Direct Messages,14,78
+MSG-0023,My garden is blooming so beautifully this spring season.,Normal Conversation,low,Social Media / General Posts,9,56
+MSG-0047,"My team won the football match today, best feeling in the world.",Normal Conversation,low,Social Media / General Posts,12,64
+MSG-0285,"Your online friends are fake, everyone knows you bought your followers.",Cyberbullying,high,Social Media / Direct Messages,11,71
+MSG-0094,"Constantly second guessing every decision I make, it is absolutely exhausting.",Stress / Anxiety,medium,Online Forum / Chat Messages,11,78
+MSG-0408,Every act of kindness I receive makes me immediately wonder what they want.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,75
+MSG-0410,I opened my heart completely and got it crushed so thoroughly I cannot recover.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,79
+MSG-0058,Reconnected with my college roommate over video call after five long years.,Normal Conversation,low,Social Media / General Posts,12,75
+MSG-0413,I question every single interaction I have wondering what the hidden motive is.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,79
+MSG-0025,Had a lovely picnic by the lake with the family this afternoon.,Normal Conversation,low,Social Media / General Posts,12,63
+MSG-0018,"Played board games with the neighbors all evening, such a fun time.",Normal Conversation,low,Social Media / General Posts,12,67
+MSG-0067,I feel like I am constantly on edge lately and I cannot seem to relax at all.,Stress / Anxiety,medium,Online Forum / Chat Messages,17,77
+MSG-0132,I am so terribly sad all the time and the worst part is I do not even know why.,Depression / Sadness,medium,Mental Health Forum / Diary,19,79
+MSG-0032,"Finished my online course today and received my certificate, very happy.",Normal Conversation,low,Social Media / General Posts,11,72
+MSG-0085,I have been canceling plans with everyone because the anxiety is just too bad.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,78
+MSG-0290,You have zero friends and that is entirely because of who you are as a person.,Cyberbullying,high,Social Media / Direct Messages,16,78
+MSG-0409,My parent never believed me growing up and it has followed me into adulthood.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,77
+MSG-0335,I will be waiting for you outside your workplace and you will not see me coming.,Violence / Threats,high,Social Media / Chat Messages,16,80
+MSG-0154,I scroll through old photos of happier times and feel like that person is gone.,Depression / Sadness,medium,Mental Health Forum / Diary,15,79
+MSG-0247,"You are such a loser, go cry to your mommy about it like the baby you are.",Cyberbullying,high,Social Media / Direct Messages,17,74
+MSG-0205,I do not deserve to live and everyone in my life would genuinely be happier.,Suicide Risk,high,Crisis Forum / Support Group,15,76
+MSG-0211,I have a loaded gun and I have been sitting with it for the past two hours.,Suicide Risk,high,Crisis Forum / Support Group,17,75
+MSG-0006,Enjoying a quiet Sunday morning with fresh coffee and a good book.,Normal Conversation,low,Social Media / General Posts,12,66
+MSG-0046,"Had a relaxing spa day with my best friend, feeling completely renewed.",Normal Conversation,low,Social Media / General Posts,12,71
+MSG-0282,You are so desperate for attention and it is genuinely pathetic to witness.,Cyberbullying,high,Social Media / Direct Messages,13,75
+MSG-0404,My partner threatened to expose my vulnerabilities if I ever tried to leave them.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,81
+MSG-0363,My partner has been lying to me consistently for months about important things.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,79
+MSG-0266,"We will systematically ruin every single relationship you have, just watch us.",Cyberbullying,high,Social Media / Direct Messages,12,78
+MSG-0017,"Made great progress on my art project today, loving how it looks.",Normal Conversation,low,Social Media / General Posts,12,65
+MSG-0390,My trust was completely shattered and I genuinely do not know how to rebuild it.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,80
+MSG-0249,You are worthless garbage and this school would be so much better without you.,Cyberbullying,high,Social Media / Direct Messages,14,78
+MSG-0303,"You will deeply regret crossing me, and I know exactly where you live.",Violence / Threats,high,Social Media / Chat Messages,13,70
+MSG-0004,"The weather is absolutely beautiful today, went for a long walk.",Normal Conversation,low,Social Media / General Posts,11,64
+MSG-0019,"Celebrated my birthday surrounded by family and friends, felt so loved.",Normal Conversation,low,Social Media / General Posts,11,71
+MSG-0395,I feel like everyone I get close to eventually reveals their true colors to me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,79
+MSG-0061,"Our neighborhood block party was an absolute blast, met so many new people.",Normal Conversation,low,Social Media / General Posts,13,75
+MSG-0204,"The darkness has completely won this time, I am choosing to stop the fight.",Suicide Risk,high,Crisis Forum / Support Group,14,75
+MSG-0155,My friends have stopped inviting me places because I always decline their offers.,Depression / Sadness,medium,Mental Health Forum / Diary,13,81
+MSG-0064,Everything feels completely overwhelming and I am under way too much pressure.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,78
+MSG-0111,I called in sick today not because I am physically ill but because of anxiety.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,78
+MSG-0312,I swear on everything I will make you suffer for what you did to me and mine.,Violence / Threats,high,Social Media / Chat Messages,17,77
+MSG-0313,"I have your home address, your daily schedule, and I am watching you closely.",Violence / Threats,high,Social Media / Chat Messages,14,77
+MSG-0127,"Getting out of bed feels completely impossible most mornings, I just cannot do it.",Depression / Sadness,medium,Mental Health Forum / Diary,14,82
+MSG-0324,"I will burn down everything you have built and own, I swear it on my life.",Violence / Threats,high,Social Media / Chat Messages,16,74
+MSG-0348,I have been in prison before and I am not afraid to go back because of you.,Violence / Threats,high,Social Media / Chat Messages,17,75
+MSG-0384,I feel completely trapped in a relationship that I am far too scared to leave.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,78
+MSG-0027,"The movie last night was absolutely fantastic, highly recommend it to everyone.",Normal Conversation,low,Social Media / General Posts,12,79
+MSG-0008,"Spent the whole evening laughing with family, what a great night.",Normal Conversation,low,Social Media / General Posts,11,65
+MSG-0200,"I cannot see any future for myself, there is just nothing there when I look ahead.",Suicide Risk,high,Crisis Forum / Support Group,16,82
+MSG-0393,I discovered my best friend had been sharing my deepest secrets with others.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,76
+MSG-0109,I have been biting my nails down to nothing from the stress of this week.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,73
+MSG-0102,I feel like I am always waiting for the other shoe to drop in everything.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,73
+MSG-0407,I feel like I have walls so high now that nobody will ever be able to reach me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,18,79
+MSG-0030,"Caught up on sleep over the long holiday weekend, feeling fully recharged.",Normal Conversation,low,Social Media / General Posts,12,74
+MSG-0141,I cry in the shower so nobody knows just how broken I feel inside every day.,Depression / Sadness,medium,Mental Health Forum / Diary,16,76
+MSG-0394,"My family chose sides in a dispute and they did not choose mine, very painful.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,78
+MSG-0119,My shoulders and neck are in constant pain from carrying so much tension.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,73
+MSG-0115,The anxiety attacks are happening more frequently now and I am really scared.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,77
+MSG-0299,I have been systematically destroying your friendships one by one from the inside.,Cyberbullying,high,Social Media / Direct Messages,13,82
+MSG-0269,I will get all my friends to mass report all your accounts until they are banned.,Cyberbullying,high,Social Media / Direct Messages,16,81
+MSG-0142,"I feel so completely hopeless about the future, like nothing will ever improve.",Depression / Sadness,medium,Mental Health Forum / Diary,13,79
+MSG-0156,I feel like a hollow shell of the person I was just one year ago.,Depression / Sadness,medium,Mental Health Forum / Diary,15,65
+MSG-0375,"I opened up completely and got hurt again, I am absolutely done trusting anyone.",Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,80
+MSG-0311,Your car will not be the only thing that gets damaged the very next time.,Violence / Threats,high,Social Media / Chat Messages,15,73
+MSG-0212,I wrote a note explaining everything and left it somewhere it will be found.,Suicide Risk,high,Crisis Forum / Support Group,14,76
+MSG-0153,Showering and basic self care have become tasks I have to force myself to do.,Depression / Sadness,medium,Mental Health Forum / Diary,15,77
+MSG-0291,We are going to make sure you never feel safe or comfortable online ever again.,Cyberbullying,high,Social Media / Direct Messages,15,79
+MSG-0110,The smallest unexpected change in plans sends me into a complete spiral.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,72
+MSG-0181,I feel like I am an actor playing the role of a functioning human being daily.,Depression / Sadness,medium,Mental Health Forum / Diary,16,78
+MSG-0194,The only way out of this unbearable pain seems to be leaving this world forever.,Suicide Risk,high,Crisis Forum / Support Group,15,80
+MSG-0158,I have been sleeping fourteen hours a day and still wake up completely exhausted.,Depression / Sadness,medium,Mental Health Forum / Diary,14,81
+MSG-0182,I have been thinking that everyone around me would be so much better without me.,Suicide Risk,high,Crisis Forum / Support Group,15,80
+MSG-0084,My chest feels extremely tight every time I think about next week and what awaits.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,82
+MSG-0178,I feel like I am mourning someone who is still alive and that person is me.,Depression / Sadness,medium,Mental Health Forum / Diary,16,75
+MSG-0166,Some days I sit on the couch for hours without moving and time just disappears.,Depression / Sadness,medium,Mental Health Forum / Diary,15,79
+MSG-0075,I have so many responsibilities piling up that I feel completely burned out.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,76
+MSG-0210,I have chosen a specific date and I am now preparing myself for what comes next.,Suicide Risk,high,Crisis Forum / Support Group,16,80
+MSG-0120,Feel like I am always running late and behind on absolutely everything.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,71
+MSG-0223,I have been fasting for days not because of diet but because why bother eating.,Suicide Risk,high,Crisis Forum / Support Group,15,79
+MSG-0250,"I told everyone every single one of your secrets, I hope you are happy now.",Cyberbullying,high,Social Media / Direct Messages,15,75
+MSG-0239,I am not afraid anymore and that is how I know I have truly made my decision.,Suicide Risk,high,Crisis Forum / Support Group,17,77
+MSG-0334,You think this is over but I am just getting started with what I have planned.,Violence / Threats,high,Social Media / Chat Messages,16,78
+MSG-0379,I feel like a complete outsider in my own relationship and in my own family.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,76
+MSG-0352,I have a very detailed plan and you are the main target of every step of it.,Violence / Threats,high,Social Media / Chat Messages,17,76
+MSG-0380,I was deeply betrayed by people I genuinely would have done absolutely anything for.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,84
+MSG-0326,"I am loading up right now and heading your way, you should say your prayers.",Violence / Threats,high,Social Media / Chat Messages,15,76
+MSG-0382,I have been used and then discarded by people so many times I am completely numb.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,16,81
+MSG-0037,"Finally organized my home office, everything is clean and neat now.",Normal Conversation,low,Social Media / General Posts,11,67
+MSG-0140,"I feel completely invisible, like no one would even notice if I were gone.",Depression / Sadness,medium,Mental Health Forum / Diary,14,74
+MSG-0353,You should be very afraid because I have crossed a line I cannot come back from.,Violence / Threats,high,Social Media / Chat Messages,16,80
+MSG-0177,The worst part is not the sadness but the complete and total absence of feeling.,Depression / Sadness,medium,Mental Health Forum / Diary,15,80
+MSG-0226,I have been looking at bridges and tall buildings on my walks for a week now.,Suicide Risk,high,Crisis Forum / Support Group,16,77
+MSG-0302,I am going to hurt you very badly if you do not back off immediately.,Violence / Threats,high,Social Media / Chat Messages,15,69
+MSG-0060,Took a mental health day from work today and feel so much better for it.,Normal Conversation,low,Social Media / General Posts,15,72
+MSG-0112,My whole body feels tense and rigid from carrying so much stress every day.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,75
+MSG-0333,I have friends in very bad places and I have already called in a very big favor.,Violence / Threats,high,Social Media / Chat Messages,17,80
+MSG-0199,I told my best friend that I love them today for what feels like the last time.,Suicide Risk,high,Crisis Forum / Support Group,17,79
+MSG-0007,"My dog learned a brand new trick today, he is absolutely adorable.",Normal Conversation,low,Social Media / General Posts,12,66
+MSG-0306,I have a weapon and I am absolutely not afraid to use it on you specifically.,Violence / Threats,high,Social Media / Chat Messages,16,77
+MSG-0292,I impersonated you online and now everyone thinks you said terrible things.,Cyberbullying,high,Social Media / Direct Messages,12,75
+MSG-0159,"Food has no taste, music has no joy, the sun outside feels cold to me now.",Depression / Sadness,medium,Mental Health Forum / Diary,16,74
+MSG-0151,Living has started to feel like nothing more than going through the motions.,Depression / Sadness,medium,Mental Health Forum / Diary,13,76
+MSG-0011,"Had an incredibly productive day at work, checked everything off my list.",Normal Conversation,low,Social Media / General Posts,12,73
+MSG-0221,I keep a calendar with the date I have chosen circled in red on my wall.,Suicide Risk,high,Crisis Forum / Support Group,16,72
+MSG-0104,I catastrophize everything and I know it but I simply cannot seem to stop.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,74
+MSG-0082,"I cannot stop checking my phone constantly, expecting something bad to happen.",Stress / Anxiety,medium,Online Forum / Chat Messages,12,78
+MSG-0392,My partner reads all my messages without permission and controls who I see.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,75
+MSG-0367,My relationship is falling apart completely and I do not know what I can do.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,76
+MSG-0168,My closest friends say I have changed and I know they are completely right.,Depression / Sadness,medium,Mental Health Forum / Diary,14,75
+MSG-0396,I was in a relationship for six years and found out it was all built on lies.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,17,77
+MSG-0238,I have a specific place picked out that means something to me personally.,Suicide Risk,high,Crisis Forum / Support Group,13,73
+MSG-0245,"You should kill yourself, nobody wants you around here and you know it.",Cyberbullying,high,Social Media / Direct Messages,13,71
+MSG-0398,My partner dismisses everything I feel and tells me I am always overreacting.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,77
+MSG-0416,Every time I try to reconnect with people my walls go back up automatically.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,76
+MSG-0090,The fear of failure is absolutely eating me alive right now and every day.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,74
+MSG-0224,I gave my cat to my neighbor today and told her I am going on a long trip.,Suicide Risk,high,Crisis Forum / Support Group,18,74
+MSG-0164,I keep thinking about how things used to be and grieving the version of me I lost.,Depression / Sadness,medium,Mental Health Forum / Diary,17,82
+MSG-0196,I have made my decision and I feel more at peace now than I have in months.,Suicide Risk,high,Crisis Forum / Support Group,17,75
+MSG-0148,"I do not see the point in trying at anything anymore, what is even the use.",Depression / Sadness,medium,Mental Health Forum / Diary,16,75
+MSG-0003,"Watching my favorite show tonight, feeling totally relaxed.",Normal Conversation,low,Social Media / General Posts,8,59
+MSG-0093,My anxiety is so bad I checked the door three times before leaving today.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,73
+MSG-0070,"The job interview is tomorrow and I am absolutely terrified, my hands are shaking.",Stress / Anxiety,medium,Online Forum / Chat Messages,14,82
+MSG-0228,I stopped taking my medication because there is no point in continuing it.,Suicide Risk,high,Crisis Forum / Support Group,13,74
+MSG-0124,I cry myself to sleep most nights and I do not even know what I am crying about.,Depression / Sadness,medium,Mental Health Forum / Diary,18,80
+MSG-0097,I feel nauseous every Sunday night knowing Monday morning is coming again.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,74
+MSG-0144,I have completely lost all motivation and drive that I used to have before.,Depression / Sadness,medium,Mental Health Forum / Diary,14,75
+MSG-0322,I have absolutely nothing left to lose so please do not push me any further.,Violence / Threats,high,Social Media / Chat Messages,15,76
+MSG-0366,I simply cannot open up to anyone anymore because they always end up hurting me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,80
+MSG-0098,My therapist says I need to manage stress better but I do not know how.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,71
+MSG-0354,I told my crew about you and they want to handle this personally for me.,Violence / Threats,high,Social Media / Chat Messages,15,72
+MSG-0069,"So stressed about my finances again, I genuinely do not know how I will manage.",Stress / Anxiety,medium,Online Forum / Chat Messages,15,79
+MSG-0024,"Finished the quarterly report ahead of schedule, boss was really impressed.",Normal Conversation,low,Social Media / General Posts,11,75
+MSG-0038,Went to a comedy show last night and laughed until my stomach hurt.,Normal Conversation,low,Social Media / General Posts,13,67
+MSG-0145,I feel like I am drowning in sadness and cannot find the surface anywhere.,Depression / Sadness,medium,Mental Health Forum / Diary,14,74
+MSG-0123,"I have not felt genuinely happy in months, everything just feels gray and dull.",Depression / Sadness,medium,Mental Health Forum / Diary,14,79
+MSG-0230,I left my journal open to the final entry on my desk this morning.,Suicide Risk,high,Crisis Forum / Support Group,14,66
+MSG-0203,I have written my will and distributed my things to people I care about.,Suicide Risk,high,Crisis Forum / Support Group,14,72
+MSG-0183,"I do not want to be here anymore, the pain has become too much to carry.",Suicide Risk,high,Crisis Forum / Support Group,16,72
+MSG-0068,My mind will not stop racing with negative and intrusive thoughts tonight.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,74
+MSG-0401,I feel like I have a target on my back and people sense it and take advantage.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,17,78
+MSG-0402,My closest confidant shared what I told them in private with the whole group.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,77
+MSG-0246,We are going to completely ruin your reputation and share all your private photos.,Cyberbullying,high,Social Media / Direct Messages,14,82
+MSG-0251,"Block me all you want, I have ten other accounts and will never stop messaging.",Cyberbullying,high,Social Media / Direct Messages,15,79
+MSG-0337,My patience has completely run out and now you are going to face real violence.,Violence / Threats,high,Social Media / Chat Messages,15,79
+MSG-0254,We will follow you everywhere you go online until you completely break down.,Cyberbullying,high,Social Media / Direct Messages,13,76
+MSG-0126,I feel profoundly alone even when I am surrounded by people who care about me.,Depression / Sadness,medium,Mental Health Forum / Diary,15,78
+MSG-0147,"The sadness feels so heavy that I can barely move most days, it is suffocating.",Depression / Sadness,medium,Mental Health Forum / Diary,15,79
+MSG-0325,You will not even recognize yourself when I am finished with you completely.,Violence / Threats,high,Social Media / Chat Messages,13,76
+MSG-0087,"I am scared that something terrible is going to happen, I just cannot shake it.",Stress / Anxiety,medium,Online Forum / Chat Messages,15,79
+MSG-0356,I know things about you that would destroy your life if they came out publicly.,Violence / Threats,high,Social Media / Chat Messages,15,79
+MSG-0220,"I donated all my savings to charity this morning, I will not need money soon.",Suicide Risk,high,Crisis Forum / Support Group,15,77
+MSG-0235,I feel like the world is a better place without people like me in it.,Suicide Risk,high,Crisis Forum / Support Group,15,69
+MSG-0357,I have your personal information and I am prepared to use every single piece.,Violence / Threats,high,Social Media / Chat Messages,14,77
+MSG-0362,I do not trust a single person anymore after what happened to me recently.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,74
+MSG-0276,We have been catfishing you for months to gather ammunition against you.,Cyberbullying,high,Social Media / Direct Messages,12,72
+MSG-0321,"Do not go home alone tonight under any circumstances, this is your warning.",Violence / Threats,high,Social Media / Chat Messages,13,75
+MSG-0184,"I have been researching ways to end it all, I am just completely done and tired.",Suicide Risk,high,Crisis Forum / Support Group,16,80
+MSG-0275,I am going to make sure everyone knows what kind of person you really are.,Cyberbullying,high,Social Media / Direct Messages,15,74
+MSG-0374,My own family completely turned their backs on me during the worst time of my life.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,16,83
+MSG-0288,Every time you post something we are right there to tear it apart publicly.,Cyberbullying,high,Social Media / Direct Messages,14,75
+MSG-0300,You are a social outcast and everyone agrees you should just delete all accounts.,Cyberbullying,high,Social Media / Direct Messages,14,81
+MSG-0130,I have been isolating myself completely and have no desire to see anyone at all.,Depression / Sadness,medium,Mental Health Forum / Diary,15,80
+MSG-0039,"Made a new friend at the gym today, we have so much in common.",Normal Conversation,low,Social Media / General Posts,14,62
+MSG-0012,"Met up with an old college friend for lunch, great catching up after years.",Normal Conversation,low,Social Media / General Posts,14,75
+MSG-0287,"I told your teacher it was you who vandalized the school property, enjoy that.",Cyberbullying,high,Social Media / Direct Messages,14,78
+MSG-0186,"Nobody would miss me even a little if I were gone, not a single person.",Suicide Risk,high,Crisis Forum / Support Group,15,71
+MSG-0256,"Keep crying about it, it only makes us want to bully you even more than before.",Cyberbullying,high,Social Media / Direct Messages,16,79
+MSG-0113,"I keep rehearsing conversations in my head before they even happen, exhausted.",Stress / Anxiety,medium,Online Forum / Chat Messages,12,78
+MSG-0180,I used to make plans for the future and now I cannot see past next week.,Depression / Sadness,medium,Mental Health Forum / Diary,16,72
+MSG-0259,You are nothing but a target and you had better get completely used to it.,Cyberbullying,high,Social Media / Direct Messages,15,74
+MSG-0308,"I will systematically destroy everything and everyone you care about, I promise.",Violence / Threats,high,Social Media / Chat Messages,12,80
+MSG-0286,We set up a public vote to humiliate you and you lost by a massive landslide.,Cyberbullying,high,Social Media / Direct Messages,16,77
+MSG-0397,I cannot tell anymore who genuinely cares about me and who is using me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,71
+MSG-0118,I skip meals because my stomach is too knotted with worry to eat anything.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,74
+MSG-0389,I cannot seem to maintain friendships because I keep pushing everyone away.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,12,75
+MSG-0400,I gave someone my complete trust and they weaponized it to use against me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,74
+MSG-0406,I found messages between my partner and my best friend that broke everything.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,77
+MSG-0305,Watch your back very carefully because I am coming for you very soon now.,Violence / Threats,high,Social Media / Chat Messages,14,73
+MSG-0234,I have already crossed everything off my bucket list that mattered to me.,Suicide Risk,high,Crisis Forum / Support Group,13,73
+MSG-0383,My partner controls every aspect of what I do and I have absolutely no freedom.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,79
+MSG-0262,Your posts are so embarrassing and cringe and everyone mocks you constantly.,Cyberbullying,high,Social Media / Direct Messages,12,76
+MSG-0165,I canceled my gym membership because the thought of going fills me with dread.,Depression / Sadness,medium,Mental Health Forum / Diary,14,78
+MSG-0347,You will wake up one morning very soon and find that things have changed badly.,Violence / Threats,high,Social Media / Chat Messages,15,79
+MSG-0137,The darkness in my mind just will not seem to lift no matter what I try.,Depression / Sadness,medium,Mental Health Forum / Diary,16,72
+MSG-0198,"I just want this pain to end permanently, there is absolutely no other way.",Suicide Risk,high,Crisis Forum / Support Group,14,75
+MSG-0233,I have been researching what a lethal dose is for days now.,Suicide Risk,high,Crisis Forum / Support Group,12,59
+MSG-0116,I feel like I am constantly performing and pretending to be okay for everyone.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,78
+MSG-0121,I check my email at two in the morning because I am afraid of missing something.,Stress / Anxiety,medium,Online Forum / Chat Messages,16,80
+MSG-0225,I wrote apology letters to everyone I have ever hurt in my entire life.,Suicide Risk,high,Crisis Forum / Support Group,14,71
+MSG-0342,I followed you home yesterday to show you how serious I am about all of this.,Violence / Threats,high,Social Media / Chat Messages,16,77
+MSG-0284,I sent your personal messages to your entire class without your permission.,Cyberbullying,high,Social Media / Direct Messages,12,75
+MSG-0128,I feel completely worthless and like a burden to everyone around me every day.,Depression / Sadness,medium,Mental Health Forum / Diary,14,78
+MSG-0350,You will pay for every single thing you did and I am completely serious now.,Violence / Threats,high,Social Media / Chat Messages,15,76
+MSG-0108,Feel like I am drowning in responsibilities and nobody seems to notice or care.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,79
+MSG-0315,I am going to make a very public example out of you in front of everyone.,Violence / Threats,high,Social Media / Chat Messages,16,73
+MSG-0134,"I miss who I used to be before all this, I have completely lost myself.",Depression / Sadness,medium,Mental Health Forum / Diary,15,71
+MSG-0403,I am starting to believe that meaningful and lasting connection is not for me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,78
+MSG-0045,Finished decorating the living room and it looks absolutely stunning now.,Normal Conversation,low,Social Media / General Posts,11,73
+MSG-0388,People always leave the moment they actually get to know the real broken me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,76
+MSG-0066,The deadlines keep piling up and I am starting to really panic about them.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,74
+MSG-0086,So overwhelmed with everything I do not even know where to begin or start.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,74
+MSG-0243,"Everyone at school hates you completely, why do you not just transfer and leave.",Cyberbullying,high,Social Media / Direct Messages,14,80
+MSG-0187,"I cannot see any reason to keep going anymore, I am completely done with trying.",Suicide Risk,high,Crisis Forum / Support Group,15,80
+MSG-0160,I pretend to be fine at work every day and then fall apart the moment I get home.,Depression / Sadness,medium,Mental Health Forum / Diary,18,81
+MSG-0013,"The new restaurant downtown is fantastic, I highly recommend the pasta.",Normal Conversation,low,Social Media / General Posts,11,71
+MSG-0036,Tried a new coffee shop in the neighborhood and it was absolutely fantastic.,Normal Conversation,low,Social Media / General Posts,13,76
+MSG-0029,Went hiking this weekend and the views from the top were simply breathtaking.,Normal Conversation,low,Social Media / General Posts,13,77
+MSG-0171,I feel guilty for being depressed when my life looks fine from the outside.,Depression / Sadness,medium,Mental Health Forum / Diary,14,75
+MSG-0143,"Everything requires such enormous effort, even the simplest of tasks feel huge.",Depression / Sadness,medium,Mental Health Forum / Diary,12,79
+MSG-0338,I have sent people to watch your house and they are reporting back to me.,Violence / Threats,high,Social Media / Chat Messages,15,73
+MSG-0319,"You will be extremely sorry when I find you, and I will definitely find you.",Violence / Threats,high,Social Media / Chat Messages,15,76
+MSG-0222,"I took the last photos on my camera roll today, I do not need any more.",Suicide Risk,high,Crisis Forum / Support Group,16,71
+MSG-0096,The pressure from my family expectations is crushing me from every direction.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,77
+MSG-0052,Started a new journaling habit this month and it feels really therapeutic.,Normal Conversation,low,Social Media / General Posts,12,74
+MSG-0241,I have disconnected my phone charger because I will not need it after tonight.,Suicide Risk,high,Crisis Forum / Support Group,14,78
+MSG-0317,Stay completely away from my family or face the most serious of consequences.,Violence / Threats,high,Social Media / Chat Messages,13,77
+MSG-0323,Next time we meet face to face things are going to get extremely violent.,Violence / Threats,high,Social Media / Chat Messages,14,73
+MSG-0179,I told my doctor I was fine because I could not find the words to explain this.,Depression / Sadness,medium,Mental Health Forum / Diary,17,79
+MSG-0042,"Got a surprise gift from my colleague, feeling very appreciated today.",Normal Conversation,low,Social Media / General Posts,11,70
+MSG-0330,"You crossed the absolute wrong person this time, prepare for the consequences.",Violence / Threats,high,Social Media / Chat Messages,12,78
+MSG-0207,I have been cutting myself because I want to feel something or to end it all.,Suicide Risk,high,Crisis Forum / Support Group,16,77
+MSG-0283,We made a poll about you and the results are as embarrassing as you would expect.,Cyberbullying,high,Social Media / Direct Messages,16,81
+MSG-0255,You absolutely deserve every single bad thing that has ever happened to you.,Cyberbullying,high,Social Media / Direct Messages,13,76
+MSG-0351,I am giving you exactly one week before I do something we will both regret.,Violence / Threats,high,Social Media / Chat Messages,15,75
+MSG-0005,"Finally got the promotion I worked so hard for, feeling proud.",Normal Conversation,low,Social Media / General Posts,11,62
+MSG-0257,I hacked your account and have sent messages to all your contacts about you.,Cyberbullying,high,Social Media / Direct Messages,14,76
+MSG-0378,My entire social circle turned against me all at once without any real reason.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,78
+MSG-0101,The constant worry about money keeps me awake until three in the morning.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,73
+MSG-0227,I feel nothing anymore and that emptiness is what finally pushed me to decide.,Suicide Risk,high,Crisis Forum / Support Group,14,78
+MSG-0361,I will make sure you feel afraid every single day from this point forward.,Violence / Threats,high,Social Media / Chat Messages,14,74
+MSG-0214,I drove to the cliff again tonight and sat there thinking for a very long time.,Suicide Risk,high,Crisis Forum / Support Group,16,79
+MSG-0172,Simple decisions like what to eat for dinner feel impossibly overwhelming to me.,Depression / Sadness,medium,Mental Health Forum / Diary,13,80
+MSG-0099,Everything around me feels like it is spinning out of control completely.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,73
+MSG-0293,Your secret is out now and the whole school is going to know by tomorrow morning.,Cyberbullying,high,Social Media / Direct Messages,16,81
+MSG-0216,I researched methods all night and made my decision before the morning came.,Suicide Risk,high,Crisis Forum / Support Group,13,76
+MSG-0062,I cannot stop worrying about the big presentation I have tomorrow morning.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,74
+MSG-0048,"Just got back from a weekend road trip, it was the best decision ever.",Normal Conversation,low,Social Media / General Posts,14,70
+MSG-0033,"Had a great team meeting at work, everyone was so creative and collaborative.",Normal Conversation,low,Social Media / General Posts,13,77
+MSG-0268,"Look at this screenshot of this complete loser, share it with absolutely everyone.",Cyberbullying,high,Social Media / Direct Messages,13,82
+MSG-0201,I stood on the bridge for a long time tonight thinking about jumping off.,Suicide Risk,high,Crisis Forum / Support Group,14,73
+MSG-0376,The constant gaslighting has made me seriously question my own sanity and reality.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,82
+MSG-0028,Baked chocolate chip cookies for the neighbors and they absolutely loved them.,Normal Conversation,low,Social Media / General Posts,12,78
+MSG-0332,I know your entire daily routine and I am watching every single move you make.,Violence / Threats,high,Social Media / Chat Messages,15,78
+MSG-0231,I feel completely at peace for the first time in years and that terrifies me.,Suicide Risk,high,Crisis Forum / Support Group,15,77
+MSG-0261,We voted and you have been officially named the ugliest person in this grade.,Cyberbullying,high,Social Media / Direct Messages,14,77
+MSG-0289,I shared your personal diary entries in the group chat and everyone is laughing.,Cyberbullying,high,Social Media / Direct Messages,14,80
+MSG-0163,My reflection in the mirror feels like looking at a stranger I do not recognize.,Depression / Sadness,medium,Mental Health Forum / Diary,15,80
+MSG-0359,I am a completely different and dangerous person when I have been pushed this far.,Violence / Threats,high,Social Media / Chat Messages,15,82
+MSG-0139,I have stopped eating properly because nothing tastes good or appeals to me.,Depression / Sadness,medium,Mental Health Forum / Diary,13,76
+MSG-0063,My heart is racing for no reason at all and I feel so anxious right now.,Stress / Anxiety,medium,Online Forum / Chat Messages,16,72
+MSG-0136,I feel like a complete and utter failure no matter what I do or how hard I try.,Depression / Sadness,medium,Mental Health Forum / Diary,18,79
+MSG-0129,"Everything feels totally pointless now, I honestly question what the purpose is.",Depression / Sadness,medium,Mental Health Forum / Diary,12,80
+MSG-0009,"Completed my morning workout, feeling energized and ready for the day.",Normal Conversation,low,Social Media / General Posts,11,70
+MSG-0327,I will hurt every single person you love to make you feel what I am feeling.,Violence / Threats,high,Social Media / Chat Messages,16,76
+MSG-0065,I have not slept properly in days because the anxiety just will not let me rest.,Stress / Anxiety,medium,Online Forum / Chat Messages,16,80
+MSG-0301,I am compiling everything embarrassing you have ever done online into one post.,Cyberbullying,high,Social Media / Direct Messages,13,79
+MSG-0015,"Kids had their school play today, they were absolutely brilliant on stage.",Normal Conversation,low,Social Media / General Posts,12,74
+MSG-0157,"The world feels muted and grey, like all the color has been drained out of it.",Depression / Sadness,medium,Mental Health Forum / Diary,16,78
+MSG-0041,The sunset this evening was one of the most beautiful I have ever seen.,Normal Conversation,low,Social Media / General Posts,14,71
+MSG-0387,I feel like an outsider absolutely everywhere I go and I never truly belong.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,76
+MSG-0343,I have your children's school schedule and I need you to take this seriously.,Violence / Threats,high,Social Media / Chat Messages,14,77
+MSG-0217,I told my mom I love her on the phone today more sincerely than I ever have.,Suicide Risk,high,Crisis Forum / Support Group,17,76
+MSG-0280,We have a whole album dedicated to your most embarrassing moments from school.,Cyberbullying,high,Social Media / Direct Messages,13,78
+MSG-0365,Everyone in my life eventually either leaves me or deliberately deceives me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,12,76
+MSG-0237,I called my ex just to hear their voice one last time and hung up without speaking.,Suicide Risk,high,Crisis Forum / Support Group,17,83
+MSG-0208,I just took all of my sleeping pills and I am feeling very drowsy right now.,Suicide Risk,high,Crisis Forum / Support Group,16,76
+MSG-0213,I feel like a burden to everyone who has ever cared about me and I am sorry.,Suicide Risk,high,Crisis Forum / Support Group,17,76
+MSG-0296,You will never escape us no matter how many accounts you create or delete.,Cyberbullying,high,Social Media / Direct Messages,14,74
+MSG-0385,Every single person I have ever trusted has eventually disappointed or hurt me.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,79
+MSG-0252,Your entire family is a complete joke and everyone laughs at you behind your back.,Cyberbullying,high,Social Media / Direct Messages,15,82
+MSG-0412,My ex spread lies about me to our entire mutual friend group after we separated.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,80
+MSG-0399,I have been isolated from all my friends by my partner over the past two years.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,16,79
+MSG-0304,I have been planning carefully to make you pay for everything you have done.,Violence / Threats,high,Social Media / Chat Messages,14,76
+MSG-0270,You are a total freak and literally everyone agrees and talks about you daily.,Cyberbullying,high,Social Media / Direct Messages,14,78
+MSG-0202,"I am going to do it tonight, I have been thinking about this long enough now.",Suicide Risk,high,Crisis Forum / Support Group,16,77
+MSG-0162,I do not feel excited about anything upcoming even things I used to love before.,Depression / Sadness,medium,Mental Health Forum / Diary,15,80
+MSG-0044,"Took my nephew to the zoo today, his face when he saw the elephants was priceless.",Normal Conversation,low,Social Media / General Posts,16,82
+MSG-0218,"I am not looking for help anymore, I have moved past that stage completely.",Suicide Risk,high,Crisis Forum / Support Group,14,75
+MSG-0191,"I am so incredibly tired of fighting every single day, I want it all to end.",Suicide Risk,high,Crisis Forum / Support Group,16,76
+MSG-0310,I have assembled a large group and we are all coming to find you tonight.,Violence / Threats,high,Social Media / Chat Messages,15,73
+MSG-0260,"Nobody cares about your feelings at all, stop being so pathetically sensitive.",Cyberbullying,high,Social Media / Direct Messages,12,78
+MSG-0106,The thought of public speaking makes me physically ill every single time.,Stress / Anxiety,medium,Online Forum / Chat Messages,12,73
+MSG-0054,Spent the afternoon gardening and it was so peaceful and meditative.,Normal Conversation,low,Social Media / General Posts,11,68
+MSG-0002,"Just finished cooking a delicious pasta dinner, turned out amazing!",Normal Conversation,low,Social Media / General Posts,10,67
+MSG-0050,"Completed my first 5K run today, crossed the finish line feeling amazing.",Normal Conversation,low,Social Media / General Posts,12,73
+MSG-0081,The stress at home is now starting to make me physically sick and I hate it.,Stress / Anxiety,medium,Online Forum / Chat Messages,16,76
+MSG-0206,"This is my final post, thank you to everyone who was kind to me along the way.",Suicide Risk,high,Crisis Forum / Support Group,17,78
+MSG-0035,"My sister just had a baby, I am officially an uncle now, so thrilled!",Normal Conversation,low,Social Media / General Posts,14,69
+MSG-0264,Go back to where you came from because you clearly do not belong here at all.,Cyberbullying,high,Social Media / Direct Messages,16,77
+MSG-0092,Cannot concentrate on any task for more than a few minutes before panicking.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,76
+MSG-0340,There is a point of no return and you pushed me way past it a long time ago.,Violence / Threats,high,Social Media / Chat Messages,18,76
+MSG-0053,"My presentation at the conference went incredibly well, got great feedback.",Normal Conversation,low,Social Media / General Posts,11,75
+MSG-0346,"I am not bluffing this time, I have already taken the first step in my plan.",Violence / Threats,high,Social Media / Chat Messages,16,76
+MSG-0265,You are so incredibly stupid and literally nobody cares what you think or say.,Cyberbullying,high,Social Media / Direct Messages,14,78
+MSG-0242,You are ugly and pathetic and no one will ever want to be with you ever.,Cyberbullying,high,Social Media / Direct Messages,16,72
+MSG-0014,"Just finished reading a wonderful novel, what a beautiful story it was.",Normal Conversation,low,Social Media / General Posts,12,71
+MSG-0316,The level of rage I feel right now makes me capable of absolutely anything.,Violence / Threats,high,Social Media / Chat Messages,14,75
+MSG-0089,I feel sick to my stomach every single morning before I even get to work.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,73
+MSG-0274,You think you are so much better than everyone but everyone hates you here.,Cyberbullying,high,Social Media / Direct Messages,14,75
+MSG-0167,"I feel like I am watching my life from a distance, detached from all of it.",Depression / Sadness,medium,Mental Health Forum / Diary,16,75
+MSG-0329,I have been carefully planning this for months and I am completely ready now.,Violence / Threats,high,Social Media / Chat Messages,14,77
+MSG-0415,I feel like I give people all of me and they take it and then simply walk away.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,18,79
+MSG-0135,I genuinely cannot remember the last time I smiled or laughed at anything real.,Depression / Sadness,medium,Mental Health Forum / Diary,14,79
+MSG-0307,"You and your entire family are not safe at all, consider this your final warning.",Violence / Threats,high,Social Media / Chat Messages,15,81
+MSG-0405,I have trust issues so severe they are now affecting my professional life too.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,78
+MSG-0320,I am planning something that will make you regret every choice you have made.,Violence / Threats,high,Social Media / Chat Messages,14,77
+MSG-0244,"I will make your life an absolute misery, you had better watch your back.",Cyberbullying,high,Social Media / Direct Messages,14,73
+MSG-0055,"Finally visited the museum I have been wanting to see for years, stunning.",Normal Conversation,low,Social Media / General Posts,13,74
+MSG-0364,I feel completely betrayed by my closest friend and I do not understand why.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,76
+MSG-0051,The thanksgiving dinner this year was the best one we have ever had.,Normal Conversation,low,Social Media / General Posts,13,68
+MSG-0175,I have been avoiding mirrors because I cannot stand looking at myself lately.,Depression / Sadness,medium,Mental Health Forum / Diary,13,77
+MSG-0190,I genuinely believe my family would be better off without me in their lives.,Suicide Risk,high,Crisis Forum / Support Group,14,76
+MSG-0419,I feel profoundly alone in a crowded room full of people who claim to care.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,15,75
+MSG-0188,The thought of not existing anymore actually brings me a sense of real peace.,Suicide Risk,high,Crisis Forum / Support Group,14,77
+MSG-0170,I have been wearing the same clothes for days because getting dressed is too hard.,Depression / Sadness,medium,Mental Health Forum / Diary,15,82
+MSG-0059,"Finished knitting a scarf for winter, so proud of how it turned out.",Normal Conversation,low,Social Media / General Posts,13,68
+MSG-0049,Adopted a rescue cat last week and she has already settled in beautifully.,Normal Conversation,low,Social Media / General Posts,13,74
+MSG-0345,I have purchased something very specific that I intend to use on you soon.,Violence / Threats,high,Social Media / Chat Messages,14,74
+MSG-0236,I know nobody will understand but this is the most logical choice I can make.,Suicide Risk,high,Crisis Forum / Support Group,15,77
+MSG-0253,"Nobody in this school wants to be your friend, you are way too weird and ugly.",Cyberbullying,high,Social Media / Direct Messages,16,78
+MSG-0022,"Got tickets to the concert I have been wanting to see, cannot wait!",Normal Conversation,low,Social Media / General Posts,13,67
+MSG-0314,"One more word from you and I will snap completely, I cannot be held responsible.",Violence / Threats,high,Social Media / Chat Messages,15,80
+MSG-0161,I have written and deleted so many texts to friends because I feel like a burden.,Depression / Sadness,medium,Mental Health Forum / Diary,16,81
+MSG-0277,Your address and phone number are now posted in a public group for everyone.,Cyberbullying,high,Social Media / Direct Messages,14,76
+MSG-0192,Life has absolutely no meaning for me anymore and I have been thinking of ending it.,Suicide Risk,high,Crisis Forum / Support Group,16,84
+MSG-0386,My social anxiety is slowly but surely ruining every single one of my relationships.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,84
+MSG-0294,We know where you live and we are going to make your offline life difficult too.,Cyberbullying,high,Social Media / Direct Messages,16,80
+MSG-0344,You have until Friday to make this right or I will take matters into my hands.,Violence / Threats,high,Social Media / Chat Messages,16,78
+MSG-0258,"Your private photos have been shared everywhere online, good luck with that.",Cyberbullying,high,Social Media / Direct Messages,12,76
+MSG-0309,"This is your absolute final warning, next time I will not be able to stop myself.",Violence / Threats,high,Social Media / Chat Messages,16,81
+MSG-0150,"My heart feels so unbearably heavy every single day, I am completely exhausted.",Depression / Sadness,medium,Mental Health Forum / Diary,13,79
+MSG-0131,"Nothing brings me any joy whatsoever anymore, I feel completely and totally numb.",Depression / Sadness,medium,Mental Health Forum / Diary,13,81
+MSG-0152,I used to love painting but I have not touched my brushes in over four months.,Depression / Sadness,medium,Mental Health Forum / Diary,16,78
+MSG-0360,Everyone who helped you will be dealt with individually when the time comes.,Violence / Threats,high,Social Media / Chat Messages,13,76
+MSG-0100,I dread social events so much now that I make excuses not to attend any.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,72
+MSG-0373,I was manipulated and controlled for years and now I cannot even trust myself.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,14,78
+MSG-0088,Work stress is now affecting my relationship at home and it is getting worse.,Stress / Anxiety,medium,Online Forum / Chat Messages,14,77
+MSG-0331,Consider this your one and only warning before I decide to take serious action.,Violence / Threats,high,Social Media / Chat Messages,14,79
+MSG-0215,I have been giving hints to people but nobody has picked up on any of them.,Suicide Risk,high,Crisis Forum / Support Group,16,75
+MSG-0122,"I feel completely and utterly empty inside, like absolutely nothing matters.",Depression / Sadness,medium,Mental Health Forum / Diary,11,76
+MSG-0421,Trusting people feels like handing someone a weapon and hoping they are kind.,Trust / Relationship Issues,medium,Relationship Forum / Feedback,13,77
+MSG-0021,"Morning run was so refreshing today, caught a beautiful sunrise.",Normal Conversation,low,Social Media / General Posts,10,64
+MSG-0189,I have been making a plan and I now have everything I need ready to go.,Suicide Risk,high,Crisis Forum / Support Group,16,71
+MSG-0072,Everything at work is falling apart at once and I feel completely helpless.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,75
+MSG-0107,I overthink every single text message I send for at least twenty minutes.,Stress / Anxiety,medium,Online Forum / Chat Messages,13,73
+MSG-0271,You had better change schools because we will never ever stop targeting you.,Cyberbullying,high,Social Media / Direct Messages,13,76
+MSG-0349,My anger has reached a level I have never experienced before in my entire life.,Violence / Threats,high,Social Media / Chat Messages,15,79
+MSG-0103,My boss keeps adding to my workload and I am already at my absolute limit.,Stress / Anxiety,medium,Online Forum / Chat Messages,15,74

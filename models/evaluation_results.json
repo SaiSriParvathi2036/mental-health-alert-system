@@ -1,0 +1,389 @@
+{
+  "Logistic Regression": {
+    "model": "Logistic Regression",
+    "accuracy": 0.5529,
+    "precision": 0.5798,
+    "recall": 0.5529,
+    "f1_score": 0.5441,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        4,
+        5,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        2,
+        4,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        7,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        1,
+        3,
+        1,
+        0,
+        2,
+        4
+      ]
+    ],
+    "classification_report": {
+      "Normal Conversation": {
+        "precision": 0.875,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7000000000000001,
+        "support": 12.0
+      },
+      "Stress / Anxiety": {
+        "precision": 0.3684210526315789,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.4516129032258065,
+        "support": 12.0
+      },
+      "Depression / Sadness": {
+        "precision": 0.7333333333333333,
+        "recall": 0.8461538461538461,
+        "f1-score": 0.7857142857142856,
+        "support": 13.0
+      },
+      "Suicide Risk": {
+        "precision": 0.5714285714285714,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4210526315789474,
+        "support": 12.0
+      },
+      "Cyberbullying": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3636363636363636,
+        "support": 12.0
+      },
+      "Violence / Threats": {
+        "precision": 0.5714285714285714,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4210526315789474,
+        "support": 12.0
+      },
+      "Trust / Relationship Issues": {
+        "precision": 0.5263157894736842,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.6451612903225806,
+        "support": 12.0
+      },
+      "accuracy": 0.5529411764705883,
+      "macro avg": {
+        "precision": 0.5779896168993913,
+        "recall": 0.5494505494505495,
+        "f1-score": 0.5411757294367044,
+        "support": 85.0
+      },
+      "weighted avg": {
+        "precision": 0.5798171900339083,
+        "recall": 0.5529411764705883,
+        "f1-score": 0.5440526536282054,
+        "support": 85.0
+      }
+    }
+  },
+  "Support Vector Machine": {
+    "model": "Support Vector Machine",
+    "accuracy": 0.6,
+    "precision": 0.6288,
+    "recall": 0.6,
+    "f1_score": 0.5905,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        7,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        9,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        2,
+        3,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        6,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        2,
+        3,
+        0,
+        0,
+        2,
+        5
+      ]
+    ],
+    "classification_report": {
+      "Normal Conversation": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 12.0
+      },
+      "Stress / Anxiety": {
+        "precision": 0.5294117647058824,
+        "recall": 0.75,
+        "f1-score": 0.6206896551724139,
+        "support": 12.0
+      },
+      "Depression / Sadness": {
+        "precision": 0.8571428571428571,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.888888888888889,
+        "support": 13.0
+      },
+      "Suicide Risk": {
+        "precision": 0.5384615384615384,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.5599999999999999,
+        "support": 12.0
+      },
+      "Cyberbullying": {
+        "precision": 0.42857142857142855,
+        "recall": 0.25,
+        "f1-score": 0.3157894736842105,
+        "support": 12.0
+      },
+      "Violence / Threats": {
+        "precision": 0.5555555555555556,
+        "recall": 0.4166666666666667,
+        "f1-score": 0.4761904761904762,
+        "support": 12.0
+      },
+      "Trust / Relationship Issues": {
+        "precision": 0.47368421052631576,
+        "recall": 0.75,
+        "f1-score": 0.5806451612903226,
+        "support": 12.0
+      },
+      "accuracy": 0.6,
+      "macro avg": {
+        "precision": 0.6261181935662253,
+        "recall": 0.5961538461538461,
+        "f1-score": 0.5869814745561399,
+        "support": 85.0
+      },
+      "weighted avg": {
+        "precision": 0.628836130784774,
+        "recall": 0.6,
+        "f1-score": 0.5905333264894663,
+        "support": 85.0
+      }
+    }
+  },
+  "Random Forest": {
+    "model": "Random Forest",
+    "accuracy": 0.4118,
+    "precision": 0.4681,
+    "recall": 0.4118,
+    "f1_score": 0.3871,
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        6,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        8,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        6,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        2,
+        3,
+        3
+      ]
+    ],
+    "classification_report": {
+      "Normal Conversation": {
+        "precision": 0.42857142857142855,
+        "recall": 0.5,
+        "f1-score": 0.4615384615384615,
+        "support": 12.0
+      },
+      "Stress / Anxiety": {
+        "precision": 0.32,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.43243243243243246,
+        "support": 12.0
+      },
+      "Depression / Sadness": {
+        "precision": 0.7142857142857143,
+        "recall": 0.38461538461538464,
+        "f1-score": 0.5,
+        "support": 13.0
+      },
+      "Suicide Risk": {
+        "precision": 0.3333333333333333,
+        "recall": 0.08333333333333333,
+        "f1-score": 0.13333333333333333,
+        "support": 12.0
+      },
+      "Cyberbullying": {
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1-score": 0.3333333333333333,
+        "support": 12.0
+      },
+      "Violence / Threats": {
+        "precision": 0.6,
+        "recall": 0.25,
+        "f1-score": 0.35294117647058826,
+        "support": 12.0
+      },
+      "Trust / Relationship Issues": {
+        "precision": 0.36,
+        "recall": 0.75,
+        "f1-score": 0.48648648648648657,
+        "support": 12.0
+      },
+      "accuracy": 0.4117647058823529,
+      "macro avg": {
+        "precision": 0.4651700680272109,
+        "recall": 0.412087912087912,
+        "f1-score": 0.3857236033706622,
+        "support": 85.0
+      },
+      "weighted avg": {
+        "precision": 0.46810084033613436,
+        "recall": 0.4117647058823529,
+        "f1-score": 0.3870680315663015,
+        "support": 85.0
+      }
+    }
+  }
+}

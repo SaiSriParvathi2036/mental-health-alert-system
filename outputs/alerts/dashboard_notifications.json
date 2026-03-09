@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2026-03-09T11:21:52.435197",
+    "risk_level": "medium",
+    "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u26a0\ufe0f  MEDIUM RISK ALERT \u2014 COUNSELOR REVIEW REQUIRED\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nAlert ID    : ALERT-20260309112152431\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\ude30 Stress / Anxiety\nRisk Level  : \ud83d\udfe1 MEDIUM RISK\nConfidence  : 62.5%\n\nContent Snippet:\n  \"I can't stop the anxiety, everything feels overwhelming right now.\"\n\nSITUATION: Signs of stress, anxiety, sadness, or relationship conflict",
+    "read": false
+  },
+  {
+    "timestamp": "2026-03-09T11:21:52.473909",
+    "risk_level": "high",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152455\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83c\udd98 Suicide Risk\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 71.7%\n\nContent Snippet:\n  \"I don't want to be here anymore, I've written my goodbye note.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUIR",
+    "read": false
+  },
+  {
+    "timestamp": "2026-03-09T11:21:52.513145",
+    "risk_level": "high",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152490\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\udd34 Violence / Threats\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 34.6%\n\nContent Snippet:\n  \"I'll hurt you if you don't comply, I know where you live.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUI",
+    "read": false
+  },
+  {
+    "timestamp": "2026-03-09T11:21:52.546172",
+    "risk_level": "high",
+    "message": "\n=================================================================\n\ud83d\udea8 HIGH RISK ALERT \u2014 IMMEDIATE ACTION REQUIRED\n=================================================================\nAlert ID    : ALERT-20260309112152522\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \u26a1 Cyberbullying\nRisk Level  : \u26d4 HIGH RISK\nConfidence  : 58.0%\n\nContent Snippet:\n  \"You're worthless, everyone hates you, go away forever.\"\n\n\u26a0\ufe0f  POSSIBLE SITUATION: Suicide, violence, abuse, or cyberbullying detected.\n\nREQUIRED ACTI",
+    "read": false
+  },
+  {
+    "timestamp": "2026-03-09T11:21:52.579778",
+    "risk_level": "medium",
+    "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u26a0\ufe0f  MEDIUM RISK ALERT \u2014 COUNSELOR REVIEW REQUIRED\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nAlert ID    : ALERT-20260309112152561\nTimestamp   : 2026-03-09 11:21:52 UTC\nCategory    : \ud83d\udc94 Trust / Relationship Issues\nRisk Level  : \ud83d\udfe1 MEDIUM RISK\nConfidence  : 74.5%\n\nContent Snippet:\n  \"I don't trust anyone after the betrayal, completely broken.\"\n\nSITUATION: Signs of stress, anxiety, sadness, or relationship conf",
+    "read": false
+  }
+]
